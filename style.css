@@ -134,7 +134,7 @@ body::selection{
    margin-left: 12px;
    line-height: 1.5;
 }
-.social{
+.landing .social{
     display: flex;
     padding: 3% 0 0 1%;
 }
@@ -358,9 +358,7 @@ box-shadow: rgba(20, 125, 218, 0.48) 6px 2px 16px 0px,
  .projects{
   padding: 100px 0;
  }
- .projects p{
-  padding: 0 14% 5% 14% ;
- }
+
  .projects .container {
   display: flex;
   flex-direction: column;
@@ -503,36 +501,38 @@ box-shadow: rgba(20, 125, 218, 0.48) 6px 2px 16px 0px,
 .footer{
   background-color: #2c4755;
    color: white;
+
 }
-.footer .image{
-  width: 30%;
-  margin: auto;
-  padding: 50px 0 30px 0;
+.footer .container,
+.footer  img,
+.footer .social
+{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
 }
-.footer .image img{
-  width: 20%;
-  display: block; 
-   margin: auto;
+.footer .container{
+   flex-direction: column;
 }
-.footer h1,
-.footer p{
-width: fit-content;
- margin: auto;
+
+.footer  img{
+   width: 100px;
+   height: 100px;
+   padding-top: 40px;
+
 }
 .footer h1{
  border-bottom: 2px solid white;
 }
 .footer .social{
-   margin-left: 40%;
 
 }
 .footer .social i{
- padding: 0 8px;
- 
+ padding: 0  8px ; 
 }
 .footer p{ 
  padding: 25px 0 40px 0;
-
 }
 .footer p span{ 
  color: var(--main-background);
