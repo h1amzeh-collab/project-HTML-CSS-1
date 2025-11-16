@@ -1,9 +1,9 @@
+
 :root {
    --main-background: rgb(0, 187, 255);
   --faded-background: #f6f6f6;
    --color-paragraph: #777;
 }
-
 *{
     font-family: "Saira", sans-serif;
 }
